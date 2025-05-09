@@ -175,10 +175,10 @@
         paginateCards(filteredCards);
       });
     
-      window.addEventListener("DOMContentLoaded", function () {
+      window.onload = function () {
         filteredCards = Array.from(document.querySelectorAll(".faculty-card"));
         paginateCards(filteredCards);
-      });
+      };      
     </script>
   </body>
   </html>
